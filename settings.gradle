@@ -1,0 +1,2 @@
+include ':app', ':model', ':networking', ':contract', ':presenter', ':view', ':injector'
+rootProject.name='android-starter-template'
