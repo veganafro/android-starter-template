@@ -23,7 +23,9 @@ class FragmentOne @Inject constructor(
         val view: View = inflater.inflate(R.layout.fragment_one_view, container, false)
 
         presenter.fragment = this
-//        presenter.subscribe()
+
+        // uncomment this when you've connected the service to a valid endpoint
+        // presenter.subscribe()
 
         return view
     }
@@ -31,7 +33,7 @@ class FragmentOne @Inject constructor(
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        fragment_one_text_view.text = "Hello world!"
+        fragment_one_text_view.text = "Hello world! Click on me!"
         fragment_one_text_view.setOnClickListener {
             onItemClickedCallback()
         }

@@ -6,23 +6,23 @@ organized using the below structure:
 ```
 .
 +-- app
-+-- injector
-    +-- dagger-compiler
-    +-- view
-        +-- material
-        +-- constraintlayout
-        +-- swiperefreshlayout
-        +-- presenter
-            +-- dagger
-            +-- contract
-            |   +-- kotlin-coroutines-core
-            |   +-- kotlin-coroutines-android
-            +-- networking
-                +-- retrofit
-                +-- model
-                    +-- moshi
-                    +-- converter-moshi
-                    +-- moshi-kotlin-codegen
+    +-- injector
+        +-- dagger-compiler
+        +-- view
+            +-- material
+            +-- constraintlayout
+            +-- swiperefreshlayout
+            +-- presenter
+                +-- dagger
+                +-- contract
+                |   +-- kotlin-coroutines-core
+                |   +-- kotlin-coroutines-android
+                +-- networking
+                    +-- retrofit
+                    +-- model
+                        +-- moshi
+                        +-- converter-moshi
+                        +-- moshi-kotlin-codegen
 ```
 
 ### Notes
